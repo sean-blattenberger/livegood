@@ -1,0 +1,51 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.navbar {
+  background-color: white;
+  border-bottom: 0px;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+span.icon-bar {
+  margin-right: 100px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: white;
+  color: #777;
+}
+.cards {
+  margin-top: 20px;
+  margin-left: 200px;
+  padding-right: 5px;
+}
+div.col-md-4{
+  padding-right: 10px;
+  width: 27%;
+}
+h3 {
+  color: #afe55c;
+  font-size: 16px;
+}
+.main {
+  width:100%
+}
+.mission {
+  width: 85%;
+}
+.menubar {
+  width:
+}
+.tile {
+  height: 500px;
+  width: 200px;
+  background-color: whitesmoke;
+}
+.container {
+  padding-top: 20px;
+}

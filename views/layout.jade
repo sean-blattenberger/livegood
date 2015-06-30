@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title= title
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", rel="stylesheet")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+          .logo
+          img(src="http://livegoodinc.com/assets/lglogo-d63a7197cc854147123451f355066fc8.png")
+      .collapse.navbar-collapse
+        ul.nav.navbar-nav.pull-right
+          li.active
+            a(href='#') Products
+          li
+            a(href='/about') Our Mission
+          li
+            a(href='/contact') Sustainibility
+          li
+            a(href='/contact') Dye Process
+          li
+            a(href='/contact') Olympic Gold Standard
+          li
+            a(href='/contact') Press
+    block content
